@@ -86,4 +86,29 @@ body {
   display: grid;
   place-items: center;
 }
+@keyframes orbit {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
+#spin {
+  animation: orbit 10s infinite ease-in-out;
+}
+@keyframes drive {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(1300px);
+  }
+}
+.auto {
+  animation: drive 3s linear infinite;
+}
+.spin {
+  animation: orbit 10s infinite ease-in-out;
+}
