@@ -1,0 +1,89 @@
+body {
+  background-image: url(https://static.vecteezy.com/ti/gratis-vektor/t2/2909372-luxus-abstrakt-banner-hintergrund-moderne-geometrische-formen-an-d-gold-linie-kunst-tapete-design-fur-website-drucke-cover-hintergrund-wandkunst-und-wanddekoration-vektor.jpg);
+  background-size: auto;
+  font-size: 20px;
+  scrollbar-base-color: red;
+}
+.title {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red green;
+}
+.logo {
+  margin-left: 400px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 416px 416px 416px;
+}
+.move {
+  margin-top: 120px;
+}
+.texta {
+  color: black;
+  text-decoration: none;
+}
+.text {
+  text-size-adjust: 200px;
+}
+.textr {
+  text-size-adjust: 200px;
+  color: red;
+}
+.textg {
+  text-size-adjust: 200px;
+  color: green;
+}
+.tage {
+  text-decoration: underline;
+}
+.table {
+  margin-left: 200px;
+  margin-top: 150px;
+  font-size: 35px;
+  border-width: 2px;
+}
+.table td {
+  border-width: 2px;
+}
+.table th {
+  border-width: 2px;
+}
+.center {
+  text-align: center;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 210px 430px 200px 165px;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: 900px 300px;
+}
+.dieser-text {
+  color: red;
+  border-color: yellowgreen;
+  border-style: dotted;
+  border-width: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: yellow;
+  border-radius: 10px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.zurueck {
+  position: absolute;
+  margin-top: 3px;
+  font-size: x-large;
+}
+.relative {
+  position: relative;
+}
+.big {
+  font-size: large;
+}
+.bredex-helix {
+  display: grid;
+  place-items: center;
+}
+

@@ -1,0 +1,5 @@
+.line_2{border-radius: 5px;border-color: black;border-width: 3px;border-style: solid;}
+.line_3{background-color: black;border-color: red;border-style: solid;border-width: 3px;border-radius: 5px;color:white}
+.line_4{background-color: cyan;color:purple;border-style: double;border-width: 5px;border-radius: 5px; border-color: darkblue; }
+.line_5{background-color: yellow;color:purple;border-style:dotted; border-color: rgb(198, 133, 198);border-width: 10px;border-radius: 5px
+;padding: 50px; font-style: italic;text-align: center;font-weight: 2;text-decoration: underline}

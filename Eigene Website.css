@@ -1,0 +1,134 @@
+.überschrift {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.abbo {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+.überschrift2 {
+  border-color: black;
+  border-style: dotted;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border-width: 10px;
+}
+.hund {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.katze {
+  color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.bannane {
+  color: yellow;
+  font-family: cursive;
+}
+.pizza {
+  color: wheat;
+  font-family: "Courier New", Courier, monospace;
+}
+.burger {
+  color: tomato;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  text-decoration: wavy;
+}
+.nudeln {
+  color: blueviolet;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.center {
+  text-align: center;
+}
+.grid {
+  display: grid;
+}
+.cola {
+  color: red;
+}
+.fanta {
+  color: orange;
+}
+.sprite {
+  color: greenyellow;
+}
+.mathe {
+  color: blue;
+  border-style: double;
+  border-width: 10px;
+}
+.geschichte {
+  color: orange;
+  border-style: solid;
+  border-width: 5px;
+  border-color: orange;
+}
+.sport {
+  color: teal;
+  border-style: groove;
+  border-width: 5px;
+}
+.warnung {
+  color: red;
+  font-weight: bolder;
+  border-color: red;
+  border-width: 10px;
+  border-style: inset;
+  background-color: aqua;
+  text-decoration: none;
+}
+.warnunga {
+  color: red;
+  text-decoration: none;
+}
+.werbung {
+  top: 0px;
+  position: sticky;
+  display: flex;
+}
+.center2 {
+  top: 0px;
+  margin-inline: auto;
+}
+.ja {
+  color: greenyellow;
+}
+.nein {
+  color: red;
+}
+table {
+  margin-inline: auto;
+  top: 0px;
+}
+body {
+  font-size: xx-large;
+}
+.button {
+  font-size: xx-large;
+}
+.move {
+  position: absolute;
+  bottom: 0px;
+}
+input {
+  font-size: xx-large;
+}
+.relative {
+  position: relative;
+}
+.gelb {
+  color: yellow;
+}
+.background {
+  background-image: url(https://static.vecteezy.com/ti/gratis-vektor/t2/2909372-luxus-abstrakt-banner-hintergrund-moderne-geometrische-formen-an-d-gold-linie-kunst-tapete-design-fur-website-drucke-cover-hintergrund-wandkunst-und-wanddekoration-vektor.jpg);
+}
+.table-color {
+  background-color: white
+}
