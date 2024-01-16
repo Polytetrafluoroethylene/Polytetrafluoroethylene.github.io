@@ -14,7 +14,7 @@ body {
 }
 .grid {
   display: grid;
-  grid-template-columns: 416px 416px 416px;
+  grid-template-columns: 1.1fr 1fr 0.5fr;
 }
 .move {
   margin-top: 120px;
@@ -54,7 +54,7 @@ body {
 }
 .grid2 {
   display: grid;
-  grid-template-columns: 210px 430px 200px 165px;
+  grid-template-columns: 0.6fr 1fr 0.6fr 0.5fr;
 }
 .grid3 {
   display: grid;
@@ -86,6 +86,9 @@ body {
   display: grid;
   place-items: center;
 }
+.spon {
+  position: relative;
+}
 @keyframes orbit {
   from {
     transform: rotate(0);
@@ -94,7 +97,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
 #spin {
   animation: orbit 10s infinite ease-in-out;
 }
@@ -112,3 +114,14 @@ body {
 .spin {
   animation: orbit 10s infinite ease-in-out;
 }
+.down {
+  margin-top: 58px;
+}
+.grid-wetter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.invisible{display: none}
+.grid-quiz{ display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;}
