@@ -2,7 +2,6 @@ body {
   background-image: url(https://static.vecteezy.com/ti/gratis-vektor/t2/2909372-luxus-abstrakt-banner-hintergrund-moderne-geometrische-formen-an-d-gold-linie-kunst-tapete-design-fur-website-drucke-cover-hintergrund-wandkunst-und-wanddekoration-vektor.jpg);
   background-size: auto;
   font-size: 20px;
-  scrollbar-base-color: red;
 }
 .title {
   text-align: center;
@@ -121,7 +120,42 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.invisible{display: none}
-.grid-quiz{ display: grid;
+.invisible {
+  display: none;
+}
+.grid-quiz {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  text-align: center;}
+  text-align: center;
+}
+.move-down {
+  margin-top: 14%;
+}
+@keyframes wut {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  16% {
+    top: 10px;
+    left: 10px;
+  }
+  32% {
+    top: -10px;
+    left: -10px;
+  }
+  48%{
+    top:0px;
+    left:0px
+  }
+  64%{top:-10px;
+      left:10px}
+  80%{top:10px;
+      left:-10px}
+  100%{top:0px;
+       left:0px}
+
+}
+#wut {
+  animation: wut 0.1s infinite; position: relative;
+}
