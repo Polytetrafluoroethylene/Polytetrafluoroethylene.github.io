@@ -37,10 +37,14 @@ body {
   text-decoration: underline;
 }
 .table {
-  margin-left: 200px;
-  margin-top: 150px;
+   display: grid;
+   place-items: center;
   font-size: 35px;
-  border-width: 2px;
+  border-width: 0px;
+}
+.border-in-table{
+  margin-top: 3%;
+  border-width:2px
 }
 .table td {
   border-width: 2px;
@@ -130,6 +134,12 @@ body {
 }
 .move-down {
   margin-top: 14%;
+}
+.tag11-center{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+
 }
 @keyframes wut {
   0% {
